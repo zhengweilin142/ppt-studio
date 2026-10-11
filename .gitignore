@@ -1,0 +1,19 @@
+# ---- 构建产物（由 tools/*.js 生成，不入库）----
+dist/
+*.pptx
+
+# ---- 依赖与缓存 ----
+node_modules/
+*.log
+npm-debug.log*
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Python ----
+__pycache__/
+*.pyc
